@@ -1,0 +1,29 @@
+<!--
+  أيقونة شريط الحالة للإشعارات.
+
+  أندرويد 5+ يرسم الأيقونة الصغيرة من قناة الشفافية وحدها ويتجاهل ألوانها،
+  فيجب أن تكون شكلاً مصمتاً على خلفية شفّافة. أيقونة الإطلاق ic_launcher.png
+  معتمة بالكامل (نسبة عتامة 1.00)، فلو تُركت مرجعاً افتراضياً لظهرت مربّعاً
+  أبيض صلداً في شريط الحالة — ولهذا هذا الملف موجود.
+
+  Vector لا PNG: يغني عن أربع كثافات ويبقى حادّاً على أي شاشة.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- كيس الطلب -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M4.6,8h14.8l-1.35,12.1c-0.09,0.81 -0.78,1.42 -1.59,1.42H7.54c-0.81,0 -1.5,-0.61 -1.59,-1.42L4.6,8z" />
+
+    <!-- المقبض -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.9"
+        android:strokeLineCap="round"
+        android:pathData="M8.75,9.5V6.25a3.25,3.25 0 0 1 6.5,0V9.5" />
+</vector>

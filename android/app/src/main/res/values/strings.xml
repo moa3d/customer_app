@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  اسم القناة ووصفها يظهران للمستخدم في إعدادات النظام (الإعدادات ← التطبيقات ←
+  الإشعارات)، لذلك يُترجمان مثل أي نص واجهة. values/ هي الاحتياطي حين لا تطابق
+  لغة الجهاز أي مجلد آخر.
+-->
+<resources>
+    <string name="notification_channel_order_name">Order updates</string>
+    <string name="notification_channel_order_desc">Status of your order from acceptance to delivery</string>
+</resources>

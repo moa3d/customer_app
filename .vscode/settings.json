@@ -1,0 +1,9 @@
+{
+    // This is a Flutter project. The Windows desktop build is driven by the
+    // flutter tool (`flutter run -d windows` / `flutter build windows`), which
+    // generates windows/flutter/ephemeral/generated_config.cmake before invoking
+    // CMake. Letting the CMake Tools extension configure windows/ directly fails
+    // on that missing file and litters build/ with a broken cache.
+    "cmake.configureOnOpen": false,
+    "cmake.automaticReconfigure": false
+}

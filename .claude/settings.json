@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/DELL/Desktop/maad 2/backendNUMNOW/**)",
+      "Bash(grep -n 'exports.getAllRestaurant\\\\|exports.getAllFood\\\\|exports.getAllFoodInRestaurant\\\\|proximityScore\\\\|ratingScore\\\\|popularScore\\\\|const maxOrders\\\\|restaurantId: { $in: restaurantIds }\\\\|new mongoose.Types.ObjectId\\(restaurantId\\)' controllers/user.controller.js)",
+      "Bash(grep -E \"\\\\[E\\\\]$|All tests passed|Some tests failed\")",
+      "Bash(grep -E \"All tests passed|\\\\[E\\\\]$\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -)",
+      "Bash(awk 'NR>=1413 && NR<=1450 && /isValid/ {print NR\": \"$0}' controllers/user.controller.js)",
+      "Bash(cd \"C:/Users/DELL/Desktop/maad 2/backendNUMNOW\" && grep -n \"ObjectId.isValid\" controllers/user.controller.js | head -6 && echo \"--- rateDriver الآن ---\" && grep -n \"exports.rateDriver\" controllers/user.controller.js)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\DELL\\Desktop\\maad 2",
+      "C:\\Users\\DELL\\Desktop\\maad 2"
+    ]
+  }
+}

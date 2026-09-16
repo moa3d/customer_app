@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- لون تمييز الإشعار في شريط الحالة والدرج — نفس AppTheme.myOrange
+         في lib/core/theme/app_theme.dart:13 -->
+    <color name="notification_accent">#F44F27</color>
+</resources>
